@@ -1,0 +1,117 @@
+body {
+    background-color: #000000;
+}
+.container{
+    background-color: #000000;
+    font-family: sans-serif;
+    color: #EEEEEE;
+}
+
+header{
+    display: block;
+    flex-direction: row;
+}
+
+.barra1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+}
+.logo{
+    display: flex;
+    margin-left: 82px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+
+}
+
+.nome{
+    display: flex;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; 
+    padding-right: 82px; 
+}
+.menu-list{
+    display: flex;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+.menu-list li{
+    text-decoration: none;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #EEEEEE;
+    padding-right: 22px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.areatext{
+    display: flex;
+    padding: 82px;
+    flex-direction: column;
+}
+.titulo h1{
+    width: 500px;
+    font-size: 70px;
+}
+.paragrafo p{
+    margin-top: 50px;
+    width: 450px;  
+}
+.buttons{
+    margin-top: 22px;
+}
+.buttons button{
+    font-size: 18px;
+    width: 200px;
+    height: 48px;
+    border-radius: 30px;
+    padding: 8px;
+}
+.btn1{
+    background-color: rgb(3, 219, 14);
+    color: #EEEEEE;
+    border: none;
+}
+.btn2{
+    background-color: transparent;
+    border: 2px solid #EEEEEE;
+    color: #EEEEEE;
+}
+.imagem{
+    display: flex;
+}
+.less{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 219, 14);
+    border-radius: 100px;
+    height: 400px;
+}
+.less img{
+    width: 100%;
+
+}
+
